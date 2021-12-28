@@ -1,0 +1,8 @@
+x = ("purple", "pink", "blue")
+print("before workaround ")
+y = list(x)
+print(y)
+y[1] = "yellow"
+x = tuple(y)
+print("after  workaround ")
+print(x)
