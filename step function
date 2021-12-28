@@ -1,0 +1,5 @@
+from _future_ import print_function     
+x = range(5)
+pra = lambda seq=x: map(print,seq) 
+pra()
+pra('abc')
