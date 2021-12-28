@@ -1,0 +1,6 @@
+list1 = ['Vijay',6,5.4,'x']
+list2 = []
+for i in list1:
+f = lambda i: i 
+list2.append(f(i))
+print(list2)
